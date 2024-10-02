@@ -22,7 +22,10 @@ public class Tree {
         return current;
     }
 
-    // raiz, esquerda, direita
+    /**
+     * raiz, esquerda, direita
+     * @param no
+     */
     public void preOrderTraversal(No no) {
         if (no == null) {
             return;
@@ -32,7 +35,10 @@ public class Tree {
         preOrderTraversal(no.right);
     }
 
-    // esquerda, raiz, direita
+    /**
+     * esquerda, raiz, direita
+     * @param no
+     */
     public void inOrderTraversal(No no) {
         if (no == null) {
             return;
@@ -42,7 +48,10 @@ public class Tree {
         inOrderTraversal(no.right);
     }
 
-    // esquerda, direita, raiz
+    /**
+     * esquerda, direita, raiz
+     * @param no
+     */
     public void postOrderTraversal(No no) {
         if (no == null) {
             return;

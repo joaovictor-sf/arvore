@@ -18,5 +18,6 @@ public class Main {
 
         System.out.println("\nPós-ordem:");
         tree.postOrderTraversal(tree.root);
+
     }
 }
